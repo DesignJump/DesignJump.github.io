@@ -38,8 +38,17 @@
         width: 100%;
         height: 40px;
         color: black;
-        font-size: 2em;
         padding: 20px 20px;
+      }
+      .header-primary {
+        display: inline-block;
+        font-size: 2em;
+        padding-right: 6px;
+      }
+      .header-secondary {
+        display: inline-block;
+        font-size: 1em;
+        color: gray;
       }
 
       .block {
@@ -126,6 +135,22 @@
           -ms-transform: translateY(-50%);
           transform: translateY(-50%);
       }
+
+      @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        .block {
+          margin: 20px 90px;
+        }
+        .header {
+          text-align: center;
+          padding: 20px 0px;
+        }
+        .header-primary {
+          font-size: 1.5em;
+        }
+        .header-secondary {
+          display: none;
+        }
+      }
       
     </style>
 
@@ -134,9 +159,15 @@
     <div class="main">
       <div class="inner-main">
         <div class="header">
-          Design Jump
-          <span style="font-size: 0.5em; color: gray">Curated by Samuel Drozdov</span>
+          <div class="header-primary">
+            Design Jump
+          </div>
+          <div class="header-secondary">
+            Curated by Samuel Drozdov
+          </div>
         </div>
+
+
         <div class="block">
           <a href="http://uxarchive.com"><img class="cover" src="coverUXArchive.png"></a>
           <div class="info-wrapper">
