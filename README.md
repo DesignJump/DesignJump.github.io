@@ -20,3 +20,5 @@ http://findguidelin.es
 http://designspiration.net
 
 http://tympanus.net/codrops/
+
+http://jxnblk.com/colorable/demos/text/
