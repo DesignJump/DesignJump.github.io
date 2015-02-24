@@ -6,7 +6,7 @@
     <meta content='width=device-width, initial-scale=1' name='viewport'/>
 
     <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-    
+
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -51,20 +51,42 @@
 
       .header {
         width: 100%;
-        height: 40px;
         color: black;
+        max-width: 900px;
+
         padding: 20px 20px;
       }
       .header-primary {
         display: inline-block;
         font-size: 2em;
-        padding-right: 6px;
       }
       .header-secondary {
         display: inline-block;
         font-size: 0.8em;
         color: gray;
         letter-spacing: 0.04em;
+        padding-left: 6px;
+      }
+
+
+      .header-nav {
+        float: right;
+        padding: 10px 0px;
+      }
+      .nav {
+        margin-right: 100px;
+        float: right;
+        height: 100%;
+      }
+      .nav-item {
+        padding: 10px;
+        display: inline-block;
+        color: gray;
+        font-family: "Raleway";
+        font-size: 0.9em;
+      }
+      .nav-item:hover {
+        color: black;
       }
 
       .block {
@@ -178,6 +200,19 @@
           <div class="header-secondary">
             Curated by Samuel Drozdov
           </div>
+          <!--
+          <div class="header-nav">
+            <div class="nav-item">
+              Inspiration
+            </div>
+            <div class="nav-item">
+              Tools
+            </div>
+            <div class="nav-item">
+              Github
+            </div>
+          </div>
+          -->
         </div>
 
 
